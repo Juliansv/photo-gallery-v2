@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	cursor: none;
+}
+
 @keyframes fade-in {
 	from {
 		opacity: 0;
