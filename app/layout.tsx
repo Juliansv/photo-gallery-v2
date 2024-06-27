@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import MouseTrailer from "./components/MouseTrailer";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -23,6 +25,7 @@ export default function RootLayout({
 					`h-screen w-screen bg-[#1D150B] overflow-hidden text-[#F5EEE6]`
 				}
 			>
+                <MouseTrailer />
 				{children}
 			</body>
 		</html>

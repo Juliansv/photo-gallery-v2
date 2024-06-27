@@ -2,7 +2,6 @@ import ImageGallery from "@/app/components/ImageGallery";
 import HeroSection from "./components/HeroSection";
 import InfoSection from "./components/InfoSection";
 import BottomCounter from "./components/BottomCounter";
-import MouseTrailer from "./components/MouseTrailer";
 
 export default function Home() {
 	return (
@@ -12,7 +11,6 @@ export default function Home() {
 				<ImageGallery />
 				<InfoSection />
 				<BottomCounter />
-                <MouseTrailer />
 			</main>
 		</>
 	);
