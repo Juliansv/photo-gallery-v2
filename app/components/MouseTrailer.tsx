@@ -25,7 +25,7 @@ export default function MouseTrailer() {
 		<>
 			<div
 				id="blob"
-				className="m-0 p-0 h-[50px] aspect-[1/1] fixed left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full bg-transparent backdrop-contrast-200 backdrop-invert backdrop-grayscale z-50"
+				className="m-0 p-0 h-[50px] aspect-[1/1] fixed left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full bg-transparent backdrop-contrast-200 backdrop-invert backdrop-grayscale z-50 pointer-events-none"
 			></div>
 		</>
 	);
