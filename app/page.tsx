@@ -1,16 +1,14 @@
-import ImageGallery from "@/app/components/ImageGallery";
+import PhotoGallery from "@/app/components/PhotoGallery";
 import HeroSection from "./components/HeroSection";
-import InfoSection from "./components/InfoSection";
-import BottomCounter from "./components/BottomCounter";
+import AboutSection from "./components/AboutSection";
 
 export default function Home() {
 	return (
 		<>
 			<main className="select-none flex" draggable={false}>
 				<HeroSection />
-				<ImageGallery />
-				<InfoSection />
-				<BottomCounter />
+				<PhotoGallery />
+				<AboutSection />
 			</main>
 		</>
 	);
